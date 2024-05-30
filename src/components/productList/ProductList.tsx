@@ -23,7 +23,8 @@ export const ProductList: React.FC<ProductListProps> = ({products, handleOpen, n
                             e.stopPropagation();
                             handleOpen(product.id);
                         }}
-                    >X
+                    >
+                        Delete Item
                     </button>
                 </div>
             ))}
